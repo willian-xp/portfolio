@@ -1,79 +1,65 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio Pessoal</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            text-align: center;
-        }
-        header {
-            background: #222;
-            color: white;
-            padding: 20px;
-        }
-        .container {
-            max-width: 900px;
-            margin: 20px auto;
-            padding: 20px;
-            background: white;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-            border-radius: 10px;
-        }
-        .projetos {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 20px;
-        }
-        .projeto {
-            background: #ddd;
-            padding: 15px;
-            border-radius: 8px;
-            width: 250px;
-        }
-        footer {
-            margin-top: 20px;
-            padding: 10px;
-            background: #222;
-            color: white;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <h1>Portfólio Pessoal</h1>
     </header>
+
     <div class="container">
-        <h2>Sobre Mim</h2>
-        <p>Sou um desenvolvedor apaixonado por tecnologia e inovação. Gosto de criar soluções criativas para problemas complexos.</p>
-        
-        <h2>Projetos</h2>
-        <div class="projetos">
-            <div class="projeto">
-                <h3>Projeto 1</h3>
-                <p>Descrição breve do projeto.</p>
-                <a href="#">Saiba mais</a>
+        <!-- Avatar Section -->
+        <div class="section">
+            <div class="avatar">
+                <img src="img/1000047556.jpg" alt="Avatar">
             </div>
-            <div class="projeto">
-                <h3>Projeto 2</h3>
-                <p>Descrição breve do projeto.</p>
-                <a href="#">Saiba mais</a>
-            </div>
-            <div class="projeto">
-                <h3>Projeto 3</h3>
-                <p>Descrição breve do projeto.</p>
-                <a href="#">Saiba mais</a>
+            <h2>Olá, eu sou Miguel</h2>
+            <p>Bem-vindo ao meu portfólio pessoal!</p>
+        </div>
+
+        <!-- Sobre Mim -->
+        <div class="section">
+            <h2>Sobre Mim</h2>
+            <p>Sou estudante do 3º ano do ensino médio, no colégio Alfredo Greipel Júnior, tenho 17 anos, 
+                fui criado na cidade de Rio Negro/Paraná e me mudei com 8 anos para a cidade de Piên/Paraná,
+                 gosto bastante de pescar nos finais de semana, gosto de jogar futebol.</p>
+        </div>
+
+        <!-- Depoimentos -->
+        <div class="section">
+            <h2>Curiosidades</h2>
+            <div class="Curiosidades">
+                <div class="Curiosidades">
+                    <img src="img/1000051842.jpg" alt="Foto do Canva">
+                    <p><strong>Meu Trabalho</strong></p>
+                    <p>"Trabalho atualmente em uma fabrica de movéis como montador de cadeiras!"</p>
+                </div>
+                <div class="Curiosidades">
+                    <img src="img/1000051843.jpg" alt="Foto do Canva">
+                    <p><strong>Sou estudante</strong></p>
+                    <p>"Estudo no Colégio Estadual Alfredo Greipel Júnior, atualmente no 3° ano do ensino médio!"</p>
+                </div>
+                <div class="Curiosidades">
+                    <img src="img/1000051845.jpg" alt="Foto do Canva">
+                    <p><strong>Cursos futuros</strong></p>
+                    <p>"Pretendo fazer um curso para ser operador de maquinas e uma faculdade de teológica!"</p>
+                </div>
             </div>
         </div>
+
+        <!-- Call to Action -->
+        <div class="cta">
+            <h2>Entre em contato comigo!</h2>
+            <p>Fique à vontade para me enviar uma mensagem.</p>
+            <button onclick="window.open('https://wa.me/4199986874', '_blank');">Enviar Mensagem</button>
+        </div>
     </div>
-    <footer>
-        <p>&copy; 2025 Seu Nome. Todos os direitos reservados.</p>
-    </footer>
 </body>
+
 </html>
